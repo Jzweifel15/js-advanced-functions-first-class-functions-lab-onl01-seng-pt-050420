@@ -24,3 +24,14 @@ const createFareMultiplier = function(multiplier) {
 
 const fareDoubler = createFareMultiplier(2);
 const fareTripler = createFareMultiplier(3);
+
+const selectDifferentDrivers = function(arrayOfDrivers, fn) {
+  if (fn === returnFirstTwoDrivers)
+  {
+    return returnFirstTwoDrivers(arrayOfDrivers);
+  }
+  else if (fn === returnLastTwoDrivers)
+  {
+    return returnLastTwoDrivers(arrayOfDrivers);
+  }
+};
